@@ -1,0 +1,108 @@
+/////////////////////////////////////////////////////@extend
+
+//Left Side Nav
+
+.leftItems {
+  width: 20%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: default;
+  
+
+  @include respond(phone) {
+    width: 25vw;
+    height: 70vh;
+    align-items: flex-start;
+  }
+  @include respond(iPad) {
+    width: 30vw;
+    height: 70vh;
+    align-items: flex-start;
+  }
+
+  .menu-box {
+    width: 15vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 5vh;
+
+    @include respond(phone) {
+      width: 25vw;
+      height: 35vh;
+      // justify-content: flex-start;
+      // align-items: flex-start;
+      // display: flex;
+    }
+
+    @include respond(iPad) {
+      width: 30vw;
+      height: 45vh;
+    }
+    //position: fixed;
+
+    .menu {
+      list-style-type: none;
+      text-transform: uppercase;
+      font-size: 1.2vw;
+      li {
+        margin: 1vh 0;
+        cursor: pointer;
+        // &:hover{
+        //   border-bottom: 2px  solid #f86e6e;
+        //   transform: translate(10px);
+        //  }
+        position: relative;
+        &:before {
+          content: "";
+          position: absolute;
+          width: 100%;
+          height: 2px;
+          bottom: 0;
+          left: 0;
+          background-color:#f86e6e;
+          visibility: hidden;
+          -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+          -webkit-transition: all .5s cubic-bezier(1,.25,0,.75);
+          transition: all .5s cubic-bezier(1,.25,0,.75);
+          }
+          &:hover:before {
+          visibility: visible;
+          -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+          }
+      }
+      @include respond(phone) {
+        width: 15vw;
+        font-size: 2.7vw;
+      }
+      @include respond(iPad) {
+        width: 25vw;
+        font-size: 4vw;
+      }
+    }
+     
+
+    .categories {
+      font-size: 1vw;
+      margin-top: 6rem;
+      color: #a6a6a5;
+
+      @include respond(phone) {
+        font-size: 3.5vw;
+        width: fit-content;
+        margin: 0;
+      }
+      @include respond(iPad) {
+        font-size: 4vw;
+        width: 25vw;
+        margin: 0;
+      }
+    }
+  }
+}

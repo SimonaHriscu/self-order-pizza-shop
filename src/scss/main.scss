@@ -1,0 +1,41 @@
+@import "_mixins.scss";
+@import "_topnav.scss";
+@import "_leftItems.scss";
+@import "_body.scss";
+@import "_order.scss";
+
+*,
+*:before,
+*:after,html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+
+  //background-color: #FFE18E;
+  //font-family: 'Roboto', sans-serif;
+  font-family: "Roboto Slab", serif;
+  color: #20201e;
+  display: flex;
+  flex-direction: column;
+  // background-image: url(../img/background2.png);
+  // background-position: right;
+  // background-size: contain;
+  // background-repeat: no-repeat;
+  // @include respond(phone) {
+  // background-image: url(../img/background2.png);
+  // background-position: right;
+  // background-size: contain;
+  // background-repeat: no-repeat;
+  // }
+}
+
+// html {
+//   box-sizing: border-box;
+//   scroll-behavior: smooth;
+//   font-family: "lato", serif;
+//   font-weight: 500;
+// }
