@@ -27,7 +27,7 @@ body {
   // background-repeat: no-repeat;
   @include respond(phone) {
   background-image: url(../img/background1.png);
-  background-position: right;
+  background-position: right bottom 27%;
   background-size: contain;
   background-repeat: no-repeat;
   }
