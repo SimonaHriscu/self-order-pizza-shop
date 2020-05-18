@@ -1,7 +1,7 @@
 const drinks = [
     {
-      name: "Beer",
-      image: "./img/drinks/01.png",
+      name: "Coffee",
+      image: "./img/drinks-round/0.png",
       id: 0,
       type:"gluten",
       price: "3.50",
@@ -18,8 +18,8 @@ const drinks = [
         "Drink",
     },
     {
-      name: "Cola",
-      image: "./img/drinks/02.png",
+      name: "Cappuccino",
+      image: "./img/drinks-round/1.png",
       id: 1,
       type:"vegan",
       price: "2.50",
@@ -37,7 +37,7 @@ const drinks = [
     },
     {
       name: "Natural Juice",
-      image: "./img/drinks/03.png",
+      image: "./img/drinks-round/5.png",
       type:"gluten",
       id: 2,
       price: "4.50",
@@ -53,7 +53,7 @@ const drinks = [
     },
     {
       name: "Cocktail",
-      image: "./img/drinks/04.png",
+      image: "./img/drinks-round/8.png",
       type:"vegan",
       id: 3,
       price: "4.99",
@@ -68,8 +68,8 @@ const drinks = [
         " Drink",
     },
     {
-      name: "Wine",
-      image: "./img/drinks/05.png",
+      name: "Cocktail",
+      image: "./img/drinks-round/10.png",
       type:"gluten",
       id: 4,
       price: "6.99",
@@ -78,8 +78,8 @@ const drinks = [
         "Drink",
     },
     {
-      name: "Tea",
-      image: "./img/drinks/06.png",
+      name: "Cocktail",
+      image: "./img/drinks-round/4.png",
       type:"vegan",
       id: 5,
       price: "6.50",
@@ -94,8 +94,8 @@ const drinks = [
         " Drink",
     },
     {
-      name: "Coffee",
-      image: "./img/drinks/07.png",
+      name: "Cocktail",
+      image: "./img/drinks-round/9.png",
       type:"guten",
       id: 6,
       price: "5.99",
@@ -110,8 +110,8 @@ const drinks = [
         " Drink",
     },
         {
-      name: "Smoothie",
-      image: "./img/drinks/08.png",
+      name: "Cocktail",
+      image: "./img/drinks-round/7.png",
       type:"vegan",
       id: 7,
       price: "7.99",
@@ -128,7 +128,7 @@ const drinks = [
     },
     {
       name: "Homemade Drink",
-      image: "./img/drinks/09.png",
+      image: "./img/drinks-round/8.png",
       type:"gluten",
       id: 8,
       price: "4.99",
@@ -148,6 +148,7 @@ const drinks = [
 let drink=document.querySelector('.drinks');
 drink.addEventListener('click',()=>{
   // drink.style.cssText='border-bottom:2px solid rgb(248, 110, 110);';
+  //drink.style.cssText='color: #a6a6a5';
   // salad.style.cssText='border-bottom:none;';
   // pizza.style.cssText='none';
     pizza_options.innerHTML='';

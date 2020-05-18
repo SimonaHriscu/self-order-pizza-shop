@@ -410,6 +410,10 @@ nav .cart .items-no {
     justify-content: space-around;
     align-items: center;
     padding: 0;
+    background-image: url(../img/background1.png);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
   }
 }
 .big-section .main_section .payment .content .p_div {
@@ -722,6 +726,9 @@ nav .cart .items-no {
   cursor: pointer;
   background-color: #ffe18e;
 }
+.big-section .main_section .pizza_det .two .pay:active {
+  background-color: #9eb3a3;
+}
 @media (max-width: 600px) {
   .big-section .main_section .pizza_det .two .pay {
     width: 60vw;
@@ -761,6 +768,14 @@ body {
   color: #20201e;
   display: flex;
   flex-direction: column;
+}
+@media (max-width: 600px) {
+  body {
+    background-image: url(../img/background1.png);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

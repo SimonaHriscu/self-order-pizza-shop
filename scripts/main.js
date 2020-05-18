@@ -85,7 +85,7 @@ function content() {
           <span class="plus"><i class="fas fa-plus-circle"></i></span>
         </span>
       </p>
-      <button class="pay">Confirm Order</button>
+      <button class="pay">Add to Cart</button>
       <button class="go_pay">PAY</button>
     </div>
   </div>`;
@@ -147,7 +147,7 @@ function content() {
           parseInt(orders.innerHTML) + parseInt(quantity.innerHTML);
         l = quantity.innerHTML;
         totalF += parseFloat(pric) * qt;
-        pay.style.cssText = "background-color: rgb(158, 179, 163);";
+       // pay.style.cssText = "background-color: rgb(158, 179, 163);";
         bill();
         quantity.innerHTML = 1;
         qt = 1;
