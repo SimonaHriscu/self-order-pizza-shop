@@ -16,8 +16,8 @@ $breakpoint argument choices:
     }
   }
 
-//   @if $breakpoint == iPad {
-//     @media (max-width: 800px) {
+//   @if $breakpoint == tablet {
+//     @media (min-width: 601px) {
 //       @content;
 
 //   }

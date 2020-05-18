@@ -21,16 +21,16 @@ body {
   color: #20201e;
   display: flex;
   flex-direction: column;
-  // background-image: url(../img/background2.png);
+  // background-image: url(../img/background1.png);
   // background-position: right;
   // background-size: contain;
   // background-repeat: no-repeat;
-  // @include respond(phone) {
-  // background-image: url(../img/background2.png);
-  // background-position: right;
-  // background-size: contain;
-  // background-repeat: no-repeat;
-  // }
+  @include respond(phone) {
+  background-image: url(../img/background1.png);
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  }
 }
 
 // html {

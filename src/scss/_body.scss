@@ -10,7 +10,7 @@
     width: 100vw;
     height: 70vh;
   }
-  @include respond(iPad) {
+  @include respond(tablet) {
     flex-direction: row;
     width: 100vw;
     height: 70vh;
@@ -27,9 +27,9 @@
       width: 75vw;
       height: 70vh;
     }
-    @include respond(iPad) {
+    @include respond(tablet) {
       width: 80vw;
-      height: 75vh;
+      height: 70vh;
     }
 
     // Top category name
@@ -43,7 +43,7 @@
       @include respond(phone) {
         display: none;
       }
-      @include respond(iPad) {
+      @include respond(tablet) {
         display: none;
       }
     }
@@ -67,10 +67,10 @@
         padding: 0;
         margin-left: 7vw;
       }
-      @include respond(iPad) {
+      @include respond(tablet) {
         width: 80vw;
         height: 70vh;
-        padding: 0;
+        justify-content: space-evenly;
       }
 
       // Each item
@@ -96,16 +96,16 @@
           margin: 0;
           padding: 0;
         }
-        @include respond(iPad) {
+        @include respond(tablet) {
           display: flex;
           flex-direction: column;
           justify-content: center;
           align-items: center;
-          width: 30%;
-          height: 15vh;
+          width: 40%;
+          height: 40vh;
           margin: 0;
           padding: 0;
-          margin: 6vw;
+         
         }
 
         .pizza_img {
@@ -118,8 +118,8 @@
           @include respond(phone) {
             width: 80%;
           }
-          @include respond(iPad) {
-            width: 70%;
+          @include respond(tablet) {
+            width: 75%;
           }
         }
 
@@ -130,8 +130,8 @@
           @include respond(phone) {
             font-size: 5.5vw;
           }
-          @include respond(iPad) {
-            font-size: 5.5vw;
+          @include respond(tablet) {
+            font-size: 3.5vw;
           }
         }
 
@@ -142,6 +142,9 @@
           @include respond(phone) {
             font-size: 4.5vw;
           }
+          @include respond(tablet) {
+            font-size: 2vw;
+          }
         }
         .name {
           font-size: 1.5vw;
@@ -149,6 +152,9 @@
 
           @include respond(phone) {
             font-size: 4.5vw;
+          }
+          @include respond(tablet) {
+            font-size: 2.5vw;
           }
         }
 
@@ -161,6 +167,11 @@
             width: 50vw;
             font-size: 3.5vw;
             text-align: center;
+          }
+          @include respond(tablet) {
+            width: 30vw;
+            height: 10vh;
+            font-size: 2.5vw;
           }
         }
       }
@@ -202,6 +213,10 @@
           justify-content: space-around;
           align-items: center;
           padding: 0;
+          background-image: url(../img/background1.png);
+          background-position: right;
+          background-size: contain;
+          background-repeat: no-repeat;
         }
 
         .p_div {
@@ -524,7 +539,10 @@
           font-size: 1.2rem;
           cursor: pointer;
           background-color: #ffe18e;
-
+            &:active{
+              background-color: rgb(158, 179, 163);
+            }
+            
           @include respond(phone) {
             width: 60vw;
             height: 4vh;

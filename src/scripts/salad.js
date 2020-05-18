@@ -1,7 +1,7 @@
 const salads = [
     {
-      name: "Change the name",
-      image: "./img/salad/01.png",
+      name: "Mixed Salat",
+      image: "./img/salad-round/0.png",
       id: 0,
       type:"gluten",
       price: "6.49",
@@ -18,8 +18,8 @@ const salads = [
         " Salad",
     },
     {
-      name: "Change the name",
-      image: "./img/salad/02.png",
+      name: "Cousous Salad",
+      image: "./img/salad-round/1.png",
       id: 1,
       type:"vegan",
       price: "5.99",
@@ -36,8 +36,8 @@ const salads = [
         "Salad",
     },
     {
-      name: "Change the name",
-      image: "./img/salad/03.png",
+      name: "Caesar Salad",
+      image: "./img/salad-round/2.png",
       type:"gluten",
       id: 2,
       price: "5.99",
@@ -52,8 +52,8 @@ const salads = [
         " Salad",
     },
     {
-      name: "Change the name",
-      image: "./img/salad/04.png",
+      name: "Chicken Salad",
+      image: "./img/salad-round/3.png",
       type:"vegan",
       id: 3,
       price: "4.99",
@@ -68,8 +68,8 @@ const salads = [
         " Salad",
     },
     {
-      name: "Change the name",
-      image: "./img/salad/05.png",
+      name: "Insalata mista",
+      image: "./img/salad-round/4.png",
       type:"gluten",
       id: 4,
       price: "6.99",
@@ -78,8 +78,8 @@ const salads = [
         "Salad",
     },
     {
-      name: "Change the name",
-      image: "./img/salad/06.png",
+      name: "Caprese Salad",
+      image: "./img/salad-round/5.png",
       type:"vegan",
       id: 5,
       price: "6.50",
@@ -95,7 +95,7 @@ const salads = [
     },
     {
       name: "Chicken Salad",
-      image: "./img/salad/07.png",
+      image: "./img/salad-round/0.png",
       type:"guten",
       id: 6,
       price: "5.99",
@@ -110,8 +110,8 @@ const salads = [
         "Salad",
     },
         {
-      name: "Change the name",
-      image: "./img/salad/04.png",
+      name: "Salmon Salad",
+      image: "./img/salad-round/1.png",
       type:"vegan",
       id: 7,
       price: "7.99",
@@ -127,8 +127,8 @@ const salads = [
         "Salad",
     },
     {
-      name: "Change the name",
-      image: "./img/salad/06.png",
+      name: "Tuna Salad",
+      image: "./img/salad-round/2.png",
       type:"gluten",
       id: 8,
       price: "4.99",

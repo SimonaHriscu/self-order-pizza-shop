@@ -12,8 +12,8 @@ nav {
     flex-direction: column;
   }
 
-  @include respond(iPad) {
-    height: 25vh;
+  @include respond(tablet) {
+    height: 30vh;
     flex-direction: column;
   }
 
@@ -31,9 +31,10 @@ nav {
       height: 15vh;
     }
 
-    @include respond(iPad) {
+    @include respond(tablet) {
       width: 75vw;
-      height: 20vh;
+      height: 15vh;
+      align-items: center;
     }
 
     p {
@@ -50,10 +51,10 @@ nav {
         font-size: 12vw;
       }
 
-      @include respond(iPad) {
-        width: 70vw;
-        height: 15vh;
-        font-size: 15vw;
+      @include respond(tablet) {
+        width: 30vw;
+        height: 7vh;
+        font-size: 10vw;
       }
     }
   }
@@ -70,9 +71,9 @@ nav {
       height: 7vh;
       align-items: center;
     }
-    @include respond(iPad) {
+    @include respond(tablet) {
       width: 100vw;
-      height: 30vh;
+      height: 7.5vh;
       align-items: center;
     }
 
@@ -88,7 +89,8 @@ nav {
       @include respond(phone) {
         display: none;
       }
-      @include respond(iPad) {
+      @include respond(tablet) {
+        
         display: none;
       }
     }
@@ -115,18 +117,19 @@ nav {
         width: 65vw;
         height: 7vh;
       }
-      @include respond(iPad) {
-        width: 80vw;
-        height: 10vh;
+      @include respond(tablet) {
+        width: 60vw;
+        height: 7.5vh;
       }
+
       & > * {
         font-size: 1.2vw;
 
         @include respond(phone) {
           font-size: 2.7vw;
         }
-        @include respond(iPad) {
-          font-size: 4vw;
+        @include respond(tablet) {
+          font-size: 2.5vw;
         }
         &:last-of-type {
           color: #a6a6a5;
@@ -151,9 +154,9 @@ nav {
       height: fit-content;
       background-color: rgba(248, 110, 110, 0.164);
     }
-    @include respond(iPad) {
-      width: 70vw;
-      height: fit-content;
+    @include respond(tablet) {
+      width: 50vw;
+     // height: fit-content;
     }
 
     .fa-concierge-bell {
@@ -166,8 +169,8 @@ nav {
       @include respond(phone) {
         font-size: 3.8vw;
       }
-      @include respond(iPad) {
-        font-size: 4.5vw;
+      @include respond(tablet) {
+        font-size: 3.5vw;
       }
     }
 
@@ -178,8 +181,8 @@ nav {
       @include respond(phone) {
         font-size: 2.8vw;
       }
-      @include respond(iPad) {
-        font-size: 3.5vw;
+      @include respond(tablet) {
+        font-size: 2.5vw;
       }
     }
 
@@ -198,10 +201,10 @@ nav {
         height: 2.5vh;
         font-size: 2.4vw;
       }
-      @include respond(iPad) {
+      @include respond(tablet) {
         width: 5.1vw;
         height: 3.5vh;
-        font-size: 3.4vw;
+        font-size: 3vw;
       }
     }
   }

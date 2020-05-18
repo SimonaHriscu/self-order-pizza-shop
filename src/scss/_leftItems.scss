@@ -16,8 +16,8 @@
     height: 70vh;
     align-items: flex-start;
   }
-  @include respond(iPad) {
-    width: 30vw;
+  @include respond(tablet) {
+    width: 20vw;
     height: 70vh;
     align-items: flex-start;
   }
@@ -39,8 +39,8 @@
       // display: flex;
     }
 
-    @include respond(iPad) {
-      width: 30vw;
+    @include respond(tablet) {
+      width: 20vw;
       height: 45vh;
     }
     //position: fixed;
@@ -81,9 +81,9 @@
         width: 15vw;
         font-size: 2.7vw;
       }
-      @include respond(iPad) {
-        width: 25vw;
-        font-size: 4vw;
+      @include respond(tablet) {
+        width: 10vw;
+        font-size: 2vw;
       }
     }
      
@@ -98,9 +98,9 @@
         width: fit-content;
         margin: 0;
       }
-      @include respond(iPad) {
-        font-size: 4vw;
-        width: 25vw;
+      @include respond(tablet) {
+        font-size: 3vw;
+        width: 18vw;
         margin: 0;
       }
     }
