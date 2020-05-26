@@ -410,10 +410,6 @@ nav .cart .items-no {
     justify-content: space-around;
     align-items: center;
     padding: 0;
-    background-image: url(../img/background1.png);
-    background-position: right;
-    background-size: contain;
-    background-repeat: no-repeat;
   }
 }
 .big-section .main_section .payment .content .p_div {
@@ -770,14 +766,6 @@ body {
   color: #20201e;
   display: flex;
   flex-direction: column;
-}
-@media (max-width: 600px) {
-  body {
-    background-image: url(../img/background1.png);
-    background-position: right bottom 27%;
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
 }
 
 /*# sourceMappingURL=main.css.map */
