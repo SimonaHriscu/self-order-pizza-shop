@@ -2,11 +2,18 @@
 
 Credits go to:
 
-- Mauricio:   https://github.com/Mauricio-Sotela;
 - Simona:     https://github.com/SimonaHriscu;
+- Mauricio:   https://github.com/Mauricio-Sotela;
 - Wajih:      https://github.com/Wajih-alzouhairy.
 
 <img src="https://media.giphy.com/media/65HR2UL6nn6XMSUoRA/source.gif">
+
+
+## Development tools and frameworks used:
+<h1>
+<img src="https://imgur.com/T1TApg1.png" alt="React" width="20%">
+<img src="https://imgur.com/plyrZV7.png" alt="React" width="10%">
+</h1>
 
 ## Preview Web version:
 
